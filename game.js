@@ -1,5 +1,7 @@
 let game;
 
+//random comment
+
 // global game options
 let gameOptions = {
     platformStartSpeed: 350,
