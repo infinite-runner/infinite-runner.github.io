@@ -1,6 +1,6 @@
 let game;
 
-//random comment
+//random comments
 
 // global game options
 let gameOptions = {
