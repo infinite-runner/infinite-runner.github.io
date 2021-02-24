@@ -5,9 +5,9 @@ let game;
 // global game options
 let gameOptions = {
     platformStartSpeed: 350,
-    spawnRange: [100, 350],
+    spawnRange: [100, 200],
     platformSizeRange: [100, 250],
-    playerGravity: 900,
+    playerGravity: 700,
     jumpForce: 600,
     playerStartPosition: 200,
     jumps: 2
