@@ -5,12 +5,12 @@ let game;
 // global game options
 let gameOptions = {
     platformStartSpeed: 350,
-    spawnRange: [50, 100],
-    platformSizeRange: [100, 250],
+    spawnRange: [25, 50],
+    platformSizeRange: [200, 350],
     playerGravity: 600,
     jumpForce: 600,
     playerStartPosition: 200,
-    jumps: 2
+    jumps: 3
 }
 
 window.onload = function() {
@@ -78,7 +78,7 @@ class playGame extends Phaser.Scene{
 
         // checking for input
         this.input.on("pointerdown", this.jump, this);
-        this.input.on("spacedown", this.jump, this);
+        this.input.on(Phaser.Keyboard.SPACEBAR, this.jump, this);
     }
 
     // the core of the script: platform are added from the pool or created on the fly
